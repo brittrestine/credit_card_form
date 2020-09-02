@@ -14,14 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +27,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.rccs {
+  border: 2px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.Input {
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 40px;
+  margin: 20px;
+  outline: none;
+  padding: 0px 10px;
+  width: 250px;
+
+
+
+}
+
+.Input:focus {
+  border: 2px solid black;
+}
+
+.PaymentForm {
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  justify-content: center;
 }
